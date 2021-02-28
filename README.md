@@ -13,4 +13,6 @@ To complete the temperature analysis, the summary statistics for both June and D
 <img src="https://github.com/hollyouellette/surfs_up/blob/main/Analysis/december_temps.png" width=200 height=300>
 </p> Based on the summary statistics, we can identify three key differences in weather between June and December:
 
-   1. 
+   1. On average, the temperature is 3.9&#8457; colder in the month of December than in June. 
+   2. At it's lowest temperature, December is 8&#8457 colder than in the month of June.
+   3. The daily temperatures in December see more deviation than temperatures in the month of June, demonstrated by December's Standard Deviation being 0.489 higher than for the temperatures in June. 
