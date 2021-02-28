@@ -8,9 +8,9 @@ In this challenge we were aspiring future owners of a Surf n' Shake shop in Oahu
 ### Results
 
 To complete the temperature analysis, the summary statistics for both June and December were calculated with the following output:
-<BR clear = "left"> 
+<p align= "center"> 
 <img src="https://github.com/hollyouellette/surfs_up/blob/main/Analysis/june_temps.png" width=200 height=300>
 <img src="https://github.com/hollyouellette/surfs_up/blob/main/Analysis/december_temps.png" width=200 height=300>
-</BR> Base on the summary statistics, we can identify three key differences in weather between June and December:
+</p> Based on the summary statistics, we can identify three key differences in weather between June and December:
 
-  1. 
+   1. 
