@@ -27,7 +27,7 @@ Upon analyzing the results of this analysis, we can conclude that regardless of 
 
 In addition to the queries performed in this analysis, I would perform the following two queries to gather more weather data for June and December:
 
-   1. **5 Year Lookback of June & December Weather Data**. By completing this, we would be able to visually identify summary statistic trends in temperatures for June & December year over year. This would also showcase any potentially concerning downward or upward trends in Oahu's temperature. We would be complete this by adding a filter to the query used in the prior analysis to isolate the summary statistics by year. The following is an example of what this query would look like for December 2012:
+   1. **5 Year Lookback of June & December Weather Data**. By completing this, we would be able to visually identify summary statistic trends in temperatures for June & December year over year. This would also showcase any potentially concerning downward or upward trends in Oahu's temperature. We would complete this by adding a filter to the query used in the prior analysis to isolate the summary statistics by year. The following is an example of what this query would look like for December 2012:
 
             y_2012 = dt.date(2012, 12, 31) - dt.timedelta(days=364)
 
