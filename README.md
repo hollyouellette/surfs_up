@@ -27,7 +27,7 @@ Upon analyzing the results of this analysis, we can conclude that regardless of 
 
 In addition addition to the queries performed in this analysis, I would perform the following two queries to gather more weather data for June and December:
 
-   1. **4 Year Lookback of June & December Weather Data**. By completing this, we would be able to visually identify summary statistic trends in temperatures for June & December year over year, or if there are any potentially concerning downward or upward trends. This would be completed by adding a filter to the query used in the prior analysis to look at the summary statistics by year. The following is an example of what this query would look like for 2021:
+   1. **5 Year Lookback of June & December Weather Data**. By completing this, we would be able to visually identify summary statistic trends in temperatures for June & December year over year, or if there are any potentially concerning downward or upward trends. This would be completed by adding a filter to the query used in the prior analysis to look at the summary statistics by year. The following is an example of what this query would look like for 2021:
 
             y_2012 = dt.date(2012, 12, 31) - dt.timedelta(days=364)
 
@@ -39,19 +39,7 @@ In addition addition to the queries performed in this analysis, I would perform 
 
             year_2012_df.describe()
 
-   2. 
-1. Identify the most active stations and repeat the analysis using only data from the station with the highest number of temperature observations.
-         session.query(Measurement.station, func.count(Measurement.station)).\
-         group_by(Measurement.station).order_by(func.count(Measurement.station).desc()).all()
-         
-2.  I would analyze the weather data from five years previous to see if the temperatures are consist or trending upward or downward (from 2012-2017):
-         
-         y_2012 = dt.date(2012, 12, 31) - dt.timedelta(days=364)
+   2. **Average Temperature 5 year Trend Analysis**.** In order to assemble the data from the previous query into a format that the investors would find helpful in their decision making, I would re-factor the code above to isolate the average temperature for each year. From there, I would assemble the annual average temperatures in a DataFrame so that investigators can visually see ths 5-year trend in the average temperature.
 
-         year_2012 = session.query(Measurement.date, Measurement.tobs).\
-                  filter((func.strftime("%m", Measurement.date) =="12")).\
-                  filter(Measurement.date >= y_2012).all()
-
-         year_2012_df = pd.DataFrame(year_2012)
-
-         year_2012_df.describe()
+<p align="center"><img src="https://github.com/hollyouellette/surfs_up/blob/main/Analysis/december_lookback.png" width=700></p>
+   
