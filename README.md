@@ -18,7 +18,7 @@ Based on the summary statistics, we can identify three key differences in weathe
    
    
    1. On average, the temperature is 3.9&#8457; colder in the month of December than in June. 
-   2. At it's lowest temperature, December is 8&#8457 colder than in the month of June.
+   2. At its lowest temperature, December is 8&#8457 colder than in the month of June.
    3. The daily temperatures in December see more deviation than temperatures in the month of June, demonstrated by December's Standard Deviation being 0.489 higher than for the temperatures in June. 
 
 ### Summary
