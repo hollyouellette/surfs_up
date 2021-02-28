@@ -27,7 +27,7 @@ Upon analyzing the results of this analysis, we can conclude that regardless of 
 
 In addition addition to the queries performed in this analysis, I would perform the following two queries to gather more weather data for June and December:
 
-   1. **4 Year Lookback of June & December Weather Data**. By completing this, we would be able to determine whether the average temperatures in June & December are consistent year over year, or if there are any potentially concerning downward or upward trends. This would be completed by first quering the database for each year. The following is an example of what this query would look like for 2021:
+   1. **4 Year Lookback of June & December Weather Data**. By completing this, we would be able to visually identify summary statistic trends in temperatures for June & December year over year, or if there are any potentially concerning downward or upward trends. This would be completed by adding a filter to the query used in the prior analysis to look at the summary statistics by year. The following is an example of what this query would look like for 2021:
 
             y_2012 = dt.date(2012, 12, 31) - dt.timedelta(days=364)
 
