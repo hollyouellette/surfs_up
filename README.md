@@ -39,7 +39,7 @@ In addition to the queries performed in this analysis, I would perform the follo
 
             year_2012_df.describe()
 
-   2. **Average Temperature 5 year Trend Analysis**.** In order to assemble the data from the previous query into a format that the investors would find helpful in their decision making, I would re-factor the code above to isolate the average temperature for each year. From there, I would assemble the annual average temperatures in a DataFrame so that investigators can visually see ths 5-year trend in the average temperature for each month (December example below).
+   2. **Average Temperature 5 year Trend Analysis**. In order to assemble the data from the previous query into a format that the investors would find helpful in their decision making, I would re-factor the code above to isolate the average temperature for each year. From there, I would assemble the annual average temperatures in a DataFrame so that investigators can visually see ths 5-year trend in the average temperature for each month (December example below).
 
 <p align="center"><img src="https://github.com/hollyouellette/surfs_up/blob/main/Analysis/december_lookback.png" width=700></p>
    
